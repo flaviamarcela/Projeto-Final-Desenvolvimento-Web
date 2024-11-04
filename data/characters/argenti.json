@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Argenti",
+        "element": "fisico",
+        "path": "the-erudition",
+        "role": "DPS de dano em área",
+        "icon": "imagens/argenti/argenti-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Perfume Efêmero",
+                "description": "Causa Dano Físico igual a 0.5% do ATQ de Argenti a um único inimigo-alvo.",
+                "gif": "gifs/argenti/argenti-attack.gif"
+            },
+            {
+                "name": "Perícia - Justiça, Aqui Floresce",
+                "description": "Causa Dano Físico igual a 0.6% do ATQ de Argenti a todos os inimigos.",
+                "gif": "gifs/argenti/argenti-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Pois Neste Jardim, a Beleza Suprema Concede",
+                "description": "Consome 90 de Energia e causa Dano Físico igual a 0.96% do ATQ de Argenti a todos os inimigos.",
+                "gif": "gifs/argenti/argenti-ult.gif"
+            },
+            {
+                "name": "Talento - Objeto Sublime",
+                "description": "Para cada inimigo atingido quando Argenti usa seu ATQ Básico, Perícia ou Perícia Suprema, regenera a Energia de Argenti em 3, e concede a ele um acúmulo de Apoteose, além de aumentar sua Chance de CRIT em 1%. Este efeito pode acumular até 10 vez(es).",
+                "gif": "gifs/argenti/argenti-ult2.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Uma Lacuna no Reino ds Estética",
+                "description": "Cada acúmulo de Apoteose aumenta o Dano CRIT adicionalmente em 4%.",
+                "image": "imagens/argenti/argenti-e1.png"
+            },
+            {
+                "name": "Humildade de Ágata",
+                "description": "Se o número de inimigos no campo é igual a 3 ou mais quando utilizar a Perícia Suprema, o ATQ aumenta em 40% por 1 rodada(s).",
+                "image": "imagens/argenti/argenti-e2.png"
+            },
+            {
+                "name": "Glória do Caminho de Espinhos",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/argenti/argenti-e3.png"
+            },
+            {
+                "name": "Devoção do Clarim",
+                "description": "No início da batalha, ganha 2 acúmulo(s) de Apoteose e aumenta o limite máximo de acúmulos do efeito do Talento em 2.",
+                "image": "imagens/argenti/argenti-e4.png"
+            },
+            {
+                "name": "Neve, de Algum Lugar no Cosmos",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image": "imagens/argenti/argenti-e5.png"
+            },
+            {
+                "name": "Vossa Resplandecência",
+                "description": "Ao usar a Perícia Suprema, ignora 30% da DEF do inimigo-alvo.",
+                "image": "imagens/argenti/argenti-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Piedade",
+                "description": "No início de uma rodada, ganha imediatamente 1 acúmulo(s) de Apoteose."
+            },
+            {
+                "name": "Generosidade",
+                "description": "Quando inimigos-alvo entram na batalha, regenera 2 de Energia imediatamente para si."
+            },
+            {
+                "name": "Coragem",
+                "description": "Causa 15% de Dano extra a inimigos cuja porcentagem de PV for igual ou menor que 50%."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Um Instante Eternamente Adorado",
+                "description": "Lightcone assinatura de Argenti.",
+                "image": "imagens/lightcone/um-instante-eternamente-adorado.png"
+            },
+            {
+                "name": "Antes do Amanhecer",
+                "description": "Segunda opção viável",
+                "image": "imagens/lightcone/antes-do-amanhecer.png"
+            }
+        ],
+        "relics": {
+            "name": "Campeã de Boxe de Rua",
+            "image": "imagens/build/campea-de-boxe-de-rua.png"
+        },
+        "ornaments": {
+            "name": "Salsotto Inerte",
+            "image": "imagens/build/salsotto-inerte.png"
+        },
+        "image": "imagens/argenti/argenti.png"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Jing Yuan",
+        "element": "raio",
+        "path": "the-erudition",
+        "role": "DPS de dano em área.",
+        "icon": "imagens/jingyuan/jingyuan-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Fulgor Radiante",
+                "description": "Jing Yuan causa Dano de Raio igual a 0.5% de seu ATQ a um único inimigo.",
+                "gif": "gifs/jingyuan/jingyuan-attack.gif"
+            },
+            {
+                "name": "Perícia - Zênite Rompido",
+                "description": "Causa Dano de Raio igual a 0.5% do ATQ de Jing Yuan a todos os inimigos e aumenta os Golpes por Ação do Senhor dos Raios em 2 na próxima rodada.",
+                "gif": "gifs/jingyuan/jingyuan-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Portador da Luz",
+                "description": "Causa Dano de Raio igual a 1.2% do ATQ de Jing Yuan a todos os inimigos e aumenta os Golpes por Ação do Senhor dos Raios em 3 na próxima rodada.",
+                "gif": "gifs/jingyuan/jingyuan-ult.gif"
+            },
+            {
+                "name": "Talento - Prana Extirpado",
+                "description": "Invoca o Senhor dos Raios no início da batalha. O Senhor dos Raios tem 60 de VEL base e 3 Golpes por Ação base. Quando o Senhor dos Raios age, seus golpes são considerados Ataques Extras, com cada golpe do Senhor dos Raios causando Dano de Raio igual a 0.33% do ATQ de Jing Yuan a um único inimigo aleatório, e inimigos adjacentes a ele também recebem Dano de Raio igual a 0.25% do Dano causado ao inimigo-alvo principal. Os Golpes por Ação do Senhor dos Raios podem atingir o máximo de 10. Toda vez que os Golpes por Ação do Senhor dos Raios aumentam em 1, sua VEL aumenta em 10. Ao fim da ação do Senhor dos Raios, a sua VEL e os Golpes por Ação voltam aos valores-base. Quando Jing Yuan é derrubado, o Senhor dos Raios desaparecerá. Quando Jing Yuan é afetado por penalidades de Controle Negativo, o Senhor dos Raios será incapaz de agir.",
+                "gif": "gifs/jingyuan/jingyuan-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Corte, Mares partidos",
+                "description": "Quando o Senhor dos Raios ataca, o multiplicador de Dano nos inimigos adjacentes ao inimigo-alvo aumenta em uma quantidade extra igual a 25% do multiplicador de Dano contra o inimigo-alvo principal.",
+                "image": "imagens/jingyuan/jingyuan-e1.png"
+            },
+            {
+                "name": "Golpe, Céus Esmagados",
+                "description": "Depois que o Senhor dos Raios age, o Dano causado pelo ATQ Básico, pela Perícia e pela Perícia Suprema de Jing Yuan aumenta em 20% por 2 rodada(s).",
+                "image": "imagens/jingyuan/jingyuan-e2.png"
+            },
+            {
+                "name": "Ataque, Sóis Subjugados",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image": "imagens/jingyuan/jingyuan-e3.png"
+            },
+            {
+                "name": "Giro, Estrelas Cercadas",
+                "description": "A cada golpe do Senhor dos Raios quando ele age, Jing Yuan regenera 2 de Energia.",
+                "image": "imagens/jingyuan/jingyuan-e4.png"
+            },
+            {
+                "name": "Marcha, Bens Saqueados",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/jingyuan/jingyuan-e5.png"
+            },
+            {
+                "name": "Varrer, Almas Ceifadas",
+                "description": "Cada golpe lançado pelo Senhor dos Raios ao agir tornará o inimigo-alvo Vulnerável. Quando Vulneráveis, inimigos recebem 12% a mais de Dano até o final da rodada atual do Senhor dos Raios, acumulando em até 3 vez(es).",
+                "image": "imagens/jingyuan/jingyuan-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Esmagamento de Batalha",
+                "description": "Se os Golpes por Ação do Senhor dos Raios forem maiores ou iguais a 6 na próxima rodada, o Dano CRIT dele aumenta em 25% pela próxima rodada."
+            },
+            {
+                "name": "Providência da sabedoria",
+                "description": "No início da batalha, regenera 15 de Energia imediatamente."
+            },
+            {
+                "name": "Marechal da Guerra",
+                "description": "Após a Perícia ser utilizada, a Chance de CRIT aumenta em 10% por 2 rodada(s)."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Antes do Amanhecer",
+                "description": "Lightcone assinatura de Jing Yuan",
+                "image": "imagens/lightcone/antes-do-amanhecer.png"
+            },
+            {
+                "name": "Noite na Via Láctea",
+                "description": "Segunda Opção Viável",
+                "image": "imagens/lightcone/noite-na-via-lactea.png"
+            }
+        ],
+        "relics": {
+            "name": "Grão-Duque em Brasas",
+            "image": "imagens/build/grao-duque-em-brasas.png"
+        },
+        "ornaments": {
+            "name": "Linha de Frente: Firmamento de Glamoth",
+            "image": "imagens/build/firmamento-glamoth.png"
+        },
+        "image": "imagens/jingyuan/jingyuan.png"
+    }
+]

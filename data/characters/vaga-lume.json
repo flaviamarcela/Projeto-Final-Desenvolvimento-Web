@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Vaga-Lume",
+        "element": "fogo",
+        "path": "the-destruction",
+        "role": "DPS de dano em área",
+        "icon": "imagens/firefly/firefly-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Ordem: Propulsão de Chamas",
+                "description": "Causa Dano de Fogo igual a 0.5% do ATQ de SAM a um único inimigo-alvo.",
+                "gif": "gifs/firefly/firefly-attack.gif"
+            },
+            {
+                "name": "Perícia - Ordem: Ataque Aéreo",
+                "description": "Consome PV igual a 0.4% dos PV máximos desta unidade e regenera uma quantidade fixa de Energia igual a 0.5% da Energia máxima desta unidade. Causa Dano de Fogo equivalente a 1% do ATQ de SAM a um único inimigo-alvo. Se os PV atuais não forem suficientes, os PV de SAM serão reduzidos a 1 ao usar esta Perícia. A próxima ação desta unidade é Avançada Adiante em 0.25%.",
+                "gif": "gifs/firefly/firefly-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Vaga-lume Tipo-IV: Combustão Completa",
+                "description": "Entra no estado de Combustão Completa, a ação desta unidade é Avançada Adiante em 100% e ganha ATQ Básico Aprimorado e Perícia Aprimorada. Enquanto em Combustão Completa, aumenta a VEL de SAM em 30, e ao usar o ATQ Básico Aprimorado ou a Perícia Aprimorada, aumenta a eficiência de Quebra de Fraqueza desta unidade em 0.5%, e aumenta o Dano de Quebra causado por SAM aos inimigos-alvo em 10%, durando até o fim do ataque atual. Um contador de tempo para o estado de Combustão Completa aparece na Ordem de Ação. Quando a rodada do contador começa, SAM sai do estado de Combustão Completa. O contador tem uma VEL fixa de 70. SAM não pode usar a Perícia Suprema enquanto estiver em Combustão Completa.",
+                "gif": "gifs/firefly/firefly-ult.gif"
+            },
+            {
+                "name": "Talento - Pironexus da Crisálida",
+                "description": "Quanto menores os PV, menor o Dano recebido. Quando os PV estiverem em 0.2% ou menos, a Redução de Dano alcança seu efeito máximo, reduzindo até 0.2%. Durante a Combustão Completa, a Redução de Dano permanece em seu efeito máximo, e a RES a Efeitos aumenta em 0.1%. Se a Energia estiver abaixo de 0.5% quando a batalha começar, a Energia será regenerada até 0.5%. Quando a Energia for regenerada ao máximo, todas as penalidades desta unidade serão dissipadas.",
+                "gif": "gifs/firefly/firefly-talent.webp"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Em Crisálidas Avermelhadas, Já Tive Meu Descanso",
+                "description": "Ao usar a Perícia Aprimorada, ignora 15% da DEF do alvo. A Perícia Aprimorada não consome Pontos de Perícia.",
+                "image": "imagens/firefly/firefly-e1.png"
+            },
+            {
+                "name": "Em Queda Livre no Céu Estilhaçado",
+                "description": "Enquanto está em Combustão Completa, usar o ATQ Básico Aprimorado ou a Perícia Aprimorada para derrotar um inimigo-alvo ou aplicar Quebra de Fraqueza a ele faz com que SAM ganhe imediatamente 1 rodada extra. Esse efeito pode ser ativado novamente após 1 rodada(s).",
+                "image": "imagens/firefly/firefly-e2.png"
+            },
+            {
+                "name": "Sono Profundo Entre os Astros",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10",
+                "image": "imagens/firefly/firefly-e3.png"
+            },
+            {
+                "name": "Sobre os Vaga-lumes Iluminados, Eu Logo Olho",
+                "description": "Enquanto está no estado de Combustão Completa, aumenta a RES de Efeito de SAM em 50%.",
+                "image": "imagens/firefly/firefly-e4.png"
+            },
+            {
+                "name": "Das Noites Sem Sonhos, Eu Então Brilho",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/firefly/firefly-e5.png"
+            },
+            {
+                "name": "No Amanhã Findado, Eu Floresço",
+                "description": "Enquanto estiver em Combustão Completa, aumenta a PEN de RES a Fogo em 20%. Ao usar o ATQ Básico Aprimorado ou a Perícia Aprimorada, aumenta a eficiência da Quebra de Fraqueza em 50%.",
+                "image": "imagens/firefly/firefly-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Módulo α: Explosão Anti-Lag",
+                "description": "Durante a Combustão Completa, atacar inimigos que não têm Fraqueza contra Fogo também pode reduzir sua Tenacidade, com o efeito sendo equivalente a 55% da Redução de Tenacidade original das habilidades."
+            },
+            {
+                "name": "Módulo β: Armadura Auto-Reativa",
+                "description": "Quando SAM está em Combustão Completa com um Efeito de Quebra que seja igual ou maior a 200%/360%, atacar um inimigo-alvo afligido com Quebra de Fraqueza converterá a Redução de Tenacidade deste ataque em 1 instância de 35%/50% Super Dano de Quebra."
+            },
+            {
+                "name": "Módulo γ: Sobrecarga Nuclear",
+                "description": "Para cada 10 ponto(s) do ATQ de SAM que exceda 1800, o Efeito de Quebra da unidade aumenta em #3[f1]%."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Onde os Sonhos Deveriam Repousar",
+                "description": "Lightcone assinatura da Vaga-Lume",
+                "image": "imagens/lightcone/onde-os-sonhos-deveriam-repousar.png"
+            },
+            {
+                "name": "Na Queda de um Aeon",
+                "description": "Segunda opção viável.",
+                "image": "imagens/lightcone/na-queda-de-um-aeon.png"
+            }
+        ],
+        "relics": {
+            "name": "Cavalaria de Ferro Contra a Praga",
+            "image": "imagens/build/cavalaria-ferro-contra-praga.png"
+        },
+        "ornaments": {
+            "name": "Forja da Lanterna Kalpagni",
+            "image": "imagens/build/forja-da-lanterna-kalpagni.png"
+        },
+        "image": "imagens/firefly/firefly.png"
+    }
+]

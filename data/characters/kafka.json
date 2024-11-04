@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Kafka",
+        "element": "raio",
+        "path": "the-nihility",
+        "role": "Debuffer",
+        "icon": "imagens/kafka/kafka-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Tumulto da Meia-noite",
+                "description": "Causa Dano de Raio igual a 0.5% do ATQ de Kafka a um único inimigo.",
+                "gif":"gifs/kafka/kafka-attack.gif"
+            },
+            {
+                "name": "Perícia - Luar Carinhoso",
+                "description": "Causa 0.8% do ATQ de Kafka como Dano de Raio a um inimigo-alvo e 0.3% do ATQ de Kafka como Dano de Raio aos inimigos adjacentes a ele. Se o inimigo-alvo estiver recebendo Dano Contínuo, todos os Danos Contínuos sobre aquele inimigo causarão imediatamente Dano de 0.6% do seu Dano original.",
+                "gif":"gifs/kafka/kafka-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Vibração do Crepúsculo",
+                "description": "Causa 0.48% do ATQ de Kafka como Dano de Raio a todos os inimigos. Há 1% de chance-base de os inimigos atingidos serem afligidos com Choque e imediatamente receberem Dano do estado de Choque atual igual a 0.8% do Dano original. Choque dura 2 rodada(s). Enquanto em Choque, inimigos recebem 1.16% do ATQ de Kafka como Dano de Raio Contínuo no início de cada rodada.",
+                "gif":"gifs/kafka/kafka-ult.gif"
+            },
+            {
+                "name": "Talento - Gentil, Mas Cruel",
+                "description": "Após um aliado de Kafka usar um ATQ Básico em um inimigo-alvo, Kafka imediatamente realiza 1 Ataque Extra e causa Dano de Raio igual a 0.42% do seu ATQ ao alvo, com 1% de chance-base de infligir Choque equivalente àquele aplicado pela Perícia Suprema dela ao inimigo-alvo atacado, durando por 2 rodadas. Este efeito só pode ser ativado 1 vez por rodada.",
+                "gif":"gifs/kafka/kafka-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Da Capo",
+                "description": "Quando o Talento ativa um Ataque Extra, há 100% de chance-base de aumentar o Dano Contínuo recebido pelo alvo em 30% por 2 rodada(s).",
+                "image":"imagens/kafka/kafka-e1.png"
+            },
+            {
+                "name": "Fortississimo",
+                "description": "Enquanto Kafka está no campo, o Dano Contínuo causado por todos os aliados aumenta em 25%.",
+                "image":"imagens/kafka/kafka-e2.png"
+            },
+            {
+                "name": "Capriccio",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image":"imagens/kafka/kafka-e3.png"
+            },
+            {
+                "name": "Recitativo",
+                "description": "Quando um inimigo-alvo recebe Dano do status de Choque infligido por Kafka, Kafka regenera adicionalmente 2 de Energia.",
+                "image":"imagens/kafka/kafka-e4.png"
+            },
+            {
+                "name": "Doloroso",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image":"imagens/kafka/kafka-e5.png"
+            },
+            {
+                "name": "Leggiero",
+                "description": "O Choque causado no inimigo pela Perícia Suprema, pela Técnica, ou pelo Ataque Extra acionado pelo Talento tem um aumento de 156% no multiplicador de Dano, e dura 1 rodada(s) a mais.",
+                "image":"imagens/kafka/kafka-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Tortura",
+                "description": "Ao usar a Perícia Suprema, os inimigos-alvo receberão Dano imediatamente de todas as fontes de Dano Contínuo aplicadas no momento ao invés de só receberem Dano do estado de Choque aplicado no momento."
+            },
+            {
+                "name": "Pilhagem",
+                "description": "Se um inimigo com Choque for derrotado, Kafka regenera adicionalmente 5 de Energia."
+            },
+            {
+                "name": "Espinhos",
+                "description": "A chance-base do inimigo alvo ser afligido por Choque através da Perícia Suprema, Técnica ou Ataque Extra acionado pelo Talento é aumentada em 30%."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Você Só Precisa de Paciência",
+                "description": "LightCone assinatura de Kafka.",
+                "image": "imagens/lightcone/voce-so-precisa-de-paciencia.png"
+            },
+            {
+                "name": "Recordação Reforjada",
+                "description": "Segunda opção viável.",
+                "image": "imagens/lightcone/recordacao-reforjada.png"
+            }
+        ],
+        "relics": {
+            "name": "Linha de Frente: Firmamento de Glamoth",
+            "image":"imagens/build/firmamento-glamoth.png"
+        },
+        "ornaments": {
+            "name": "Prisioneiro em Confinamento Profundo",
+            "image":"imagens/build/prisioneiro-confinamento-profundo.png"
+        },
+        "image": "imagens/kafka/kafka.png"
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "FuXuan",
+        "element": "quantico",
+        "path": "the-preservation",
+        "role": "Escudo",
+        "icon": "imagens/fuxuan/fuxuan-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Explosão Supernova",
+                "description": "Causa Dano Quântico igual a 0.25% dos PV máximos de Fu Xuan a um único inimigo.",
+                "gif":"gifs/fuxuan/fuxuan-attack.gif"
+            },
+            {
+                "name": "Perícia - Conhecida pelas Estrelas, Exibida pelos Corações",
+                "description": "Ativa a Matriz de Presciência através da qual outros membros da equipe de Fu Xuan vão Distribuir 0.65% do Dano que eles receberem (antes deste Dano ser mitigado por quaisquer Escudos) com Fu Xuan por 3 rodada(s). Enquanto afetados pela Matriz de Presciência, todos os aliados-alvo ganham o efeito de Conhecimento, que aumenta seus respectivos PV máximos em 3% dos PV máximos de Fu Xuan, e aumenta a Chance de CRIT em 6%. Quando Fu Xuan é derrubada, a Matriz de Presciência é desfeita.",
+                "gif":"gifs/fuxuan/fuxuan-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Os Lamentos de Muitos Transformaram-se em Um",
+                "description": "Causa Dano Quântico igual a 0.6% dos PV máximos de Fu Xuan a todos os inimigos e obtém 1 contagem de ativação para o efeito de Restauração de PV concedido pelo Talento de Fu Xuan.",
+                "gif":"gifs/fuxuan/fuxuan-ult.gif"
+            },
+            {
+                "name": "Talento - Das Sombras à Alegria",
+                "description": "Enquanto Fu Xuan estiver ativa em combate, a Prevenção de Infortúnio é aplicada a toda a equipe. Enquanto estiverem com Prevenção de Infortúnio, os aliados recebem 10% a menos de Dano. Quando a porcentagem dos PV atuais de Fu Xuan caírem para 0.5% ou menos dos seus PV máximos, a Restauração de PV será ativada para Fu Xuan, recuperando os PV dela em 0.8% da quantidade de PV perdida no momento. Este efeito não pode ser ativado se ela receber um golpe fatal. Este efeito possui 1 contagem de ativação por padrão, e pode possuir um máximo de 2 contagens de ativação.",
+                "gif":"gifs/fuxuan/fuxuan-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Dominus Pacis",
+                "description": "O efeito de Conhecimento aumenta o Dano CRIT em 30%.",
+                "image":"imagens/fuxuan/fuxuan-e1.png"
+            },
+            {
+                "name": "Optimus Felix",
+                "description": "Se qualquer membro da equipe for atingido por um golpe fatal enquanto a Matriz de Presciência estiver ativa, todos os aliados que forem atingidos por um golpe fatal durante esta ação não serão derrubados e 70% de seus PV máximos serão restaurados imediatamente. Este efeito pode ser acionado 1 vez por batalha.",
+                "image":"imagens/fuxuan/fuxuan-e2.png"
+            },
+            {
+                "name": "Ápice da Ligação",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image":"imagens/fuxuan/fuxuan-e3.png"
+            },
+            {
+                "name": "Fortuna Stellaris",
+                "description": "Quando outros aliados sob a Matriz de Presciência são atacados, Fu Xuan regenera 5 de Energia.",
+                "image":"imagens/fuxuan/fuxuan-e4.png"
+            },
+            {
+                "name": "Árbitra Primordial",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image":"imagens/fuxuan/fuxuan-e5.png"
+            },
+            {
+                "name": "Omnia Vita",
+                "description": "Assim que a Matriz de Presciência é ativada, ela manterá um registro com o valor total de PV perdidos por todos os membros da equipe na batalha atual. O Dano causado pela Perícia Suprema de Fu Xuan aumentará em 200% desse valor de PV perdidos. Esse valor também é limitado a 120% dos PV máximos de Fu Xuan e o valor registrado será reiniciado e reacumulado após a Perícia Suprema de Fu Xuan ser utilizada.",
+                "image":"imagens/fuxuan/fuxuan-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Liuren, o Sexagenário",
+                "description": "Se um inimigo-alvo aplicar penalidades de Controle Negativo a aliados enquanto a Matriz de Presciência estiver ativa, todos os aliados resistirão a todas as penalidades de Controle Negativo aplicadas pelo inimigo-alvo durante a ação atual. Este efeito só pode ser acionado uma única vez. Quando a Matriz de Presciência é reativada, o número de vezes que este efeito pode ser ativado será redefinido."
+            },
+            {
+                "name": "Bônus de RES a Efeito",
+                "description": "+4"
+            },
+            {
+                "name": "Bônus de Chance de CRIT",
+                "description": "+4"
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Ela já fechou seus olhos",
+                "description": "LightCone assinatura de FuXuan.",
+                "image": "imagens/lightcone/ela-ja-fechou-seus-olhos.png"
+            },
+            {
+                "name": "Momento de Vitória",
+                "description": "Segunda opção viável.",
+                "image": "imagens/lightcone/momento-de-vitoria.png"
+            }
+        ],
+        "relics": {
+            "name": "Discípula Longeva",
+            "image":"imagens/build/discipula-longeva.png"
+        },
+        "ornaments": {
+            "name": "Quilha Quebrada",
+            "image":"imagens/build/quilha-quebrada.png"
+        },
+        "image": "imagens/fuxuan/fuxuan.png"
+    }
+]

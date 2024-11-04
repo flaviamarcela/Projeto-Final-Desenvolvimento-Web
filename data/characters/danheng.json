@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Dan Heng",
+        "element": "imaginario",
+        "path": "the-destruction",
+        "role": "DPS em área",
+        "icon": "imagens/danheng/danheng-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Lótus Beneficente",
+                "description": "Realiza um ataque de 2 golpes e causa Dano Imaginário igual a 0.5% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo.",
+                "gif": "gifs/danheng/danheng-attack.webp"
+            },
+            {
+                "name": "Perícia - Dracore Libre",
+                "description": "Aprimora o ATQ Básico. Aprimoramentos podem ser aplicados até 3 vezes consecutivas. Usar esta habilidade não consome Pontos de Perícia e não é considerado como utilização de uma Perícia. Aprimorado uma vez, Lótus Beneficente se torna Transcendência. Aprimorado duas vezes, Lótus Beneficente se torna Lança Divina. Aprimorado três vezes, Lótus Beneficente se torna Salto Fulgurante. Ao utilizar Lança Divina ou Salto Fulgurante, começando do quarto golpe, 1 acúmulo de Rugido Soberano é concedido antes de cada golpe. Cada acúmulo de Rugido Soberano aumenta o Dano CRIT de Dan Heng - Embebidor Lunae em 6%, até um máximo de 4 acúmulos. Estes acúmulos duram até o final da rodada dele.",
+                "gif": "gifs/danheng/danheng-skill.webp"
+            },
+            {
+                "name": "Perícia Suprema - A Água Celeste Ablui Tudo",
+                "description": "Realiza um ataque de 3 golpes e causa Dano Imaginário igual a 1.8% do ATQ de Dan Heng - Embebidor Lunae a um único inimigo-alvo. Ao mesmo tempo, causa Dano Imaginário igual a 0.84% do ATQ de Dan Heng - Embebidor Lunae a alvos adjacentes. Então, obtém 2 Squama Sacrosancta. É possível possuir até 3 Squama Sacrosancta, que podem ser usados para anular o consumo de Pontos de Perícia de Dan Heng - Embebidor Lunae. Consumir Squama Sacrosancta é considerado o equivalente a consumir Pontos de Perícia.",
+                "gif": "gifs/danheng/danheng-ult.webp"
+            },
+            {
+                "name": "Talento - Coração Íntegro",
+                "description": "Depois de cada golpe realizado durante um ataque, Dan Heng - Embebidor Lunae ganha 1 acúmulo de Coração Íntegro, aumentando seu Dano em 5%. Este efeito pode acumular até 6 vez(es), durando até o final da rodada dele.",
+                "gif": "gifs/danheng/danheng-talent.webp"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Conectado ao Céu",
+                "description": "Aumenta a contagem acumulável de Coração Íntegro em 4, e ganha 1 acúmulo extra de Coração Íntegro por cada golpe durante o ataque.",
+                "image": "imagens/danheng/danheng-e1.png"
+            },
+            {
+                "name": "Império nas Nuvens",
+                "description": "Depois de usar sua Perícia Suprema, a ação de Dan Heng - Embebidor Lunae é Avançada Adiante em 100% e ganha 1 Squama Sacrosancta extra.",
+                "image": "imagens/danheng/danheng-e2.png"
+            },
+            {
+                "name": "Trajado com Nuvens",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image": "imagens/danheng/danheng-e3.png"
+            },
+            {
+                "name": "Bênção Zefirina",
+                "description": "O efeito de melhoria concedido por Rugido Soberano dura até o final da próxima rodada deste personagem",
+                "image": "imagens/danheng/danheng-e4.png"
+            },
+            {
+                "name": "A Queda é o Orgulho",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/danheng/danheng-e5.png"
+            },
+            {
+                "name": "Reinado, Retornado",
+                "description": "Depois que qualquer aliado usa a Perícia Suprema, a PEN de RES a Imaginário do próximo Salto Fulgurante de Dan Heng - Embebidor Lunae aumenta em 20%. Este efeito pode acumular até 3 vez(es).",
+                "image": "imagens/danheng/danheng-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Véu Estelar",
+                "description": "No início da batalha, regenera 15 de Energia imediatamente."
+            },
+            {
+                "name": "Reinado Aquático",
+                "description": "Aumenta a chance de resistir a penalidades de Controle Negativo em 35%."
+            },
+            {
+                "name": "Nova Descarga",
+                "description": "Ao causar Dano a inimigos com Fraqueza contra Imaginário, aumenta o Dano CRIT em 24%."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Mais Claro do Que o Sol",
+                "description": "Lightcone assinatura de Dan Heng",
+                "image": "imagens/lightcone/mais-claro-do-que-o-sol.png"
+            },
+            {
+                "name": "Na Queda de um Aeon",
+                "description": "Segunda opção viável",
+                "image": "imagens/lightcone/na-queda-de-um-aeon.png"
+            }
+        ],
+        "relics": {
+            "name": "Andarilho do Deserto da Bandidagem",
+            "image": "imagens/build/andarilho-do-deserto.png"
+        },
+        "ornaments": {
+            "name": "Arena Rutilante",
+            "image": "imagens/build/arena-rutilante.png"
+        },
+        "image": "imagens/danheng/danheng.png"
+    }
+]

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia de Personagens T5 - Honkai: Star Rail</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img id="logo-img" class="logo" alt="Honkai: Star Rail" src='imagens/hsr_logo.png'/>
+        </div>
+        <h1>Guia do Desbravador</h1>
+        <h2>Personagens T5 e Builds - Honkai: Star Rail</h2>
+        <div id="search-container">
+            <input type="text" id="search-box" placeholder="Digite o nome do personagem">
+            <button id="search-button">Buscar</button>
+        </div>
+        <div id="filters">
+            <select id="element-filter">
+                <option value="">Todos os Elementos</option>
+                <option value="fogo">Fogo</option>
+                <option value="gelo">Gelo</option>
+                <option value="raio">Raio</option>
+                <option value="vento">Vento</option>
+                <option value="fisico">Físico</option>
+                <option value="quantico">Quântico</option>
+                <option value="imaginario">Imaginário</option>
+            </select>
+            <select id="path-filter">
+                <option value="">Todos os Caminhos</option>
+                <option value="the-destruction">A Destruição</option>
+                <option value="the-hunt">A Caça</option>
+                <option value="the-harmony">A Harmonia</option>
+                <option value="the-nihility">A Inexistência</option>
+                <option value="the-abundance">A Abundância</option>
+                <option value="the-erudition">A Erudição</option>
+                <option value="the-preservation">A Preservação</option>
+            </select>
+            <button id="apply-filters">Aplicar Filtro</button>
+        </div>
+    </header>
+
+    <main>
+        <section id="character-list">
+            <div id="character-buttons"></div> 
+        </section>
+
+        <section id="character-details" style="display: none;">
+            <div>
+                <button id="back-button" class="back-button">Voltar</button>
+            </div>
+            <div class="details-container">
+                <div class="image-section">
+                    <img id="char-image" class="fade-in" alt="Splash Art" />
+                </div>
+                <div class="info-section">
+                    <h3 id="char-name"></h3>
+                    <p id="char-role"></p>
+                    <p id="char-path"></p>
+                    <div id="char-attacks"></div>
+                    <div id="char-eidolons"></div>
+                    <div id="char-traces"></div>
+                </div>
+                <div class="build-section">
+                    <h3>Sugestões de Builds</h3>
+                    <div id="char-light-cone"></div>
+                    <div id="char-relics"></div>
+                    <div id="char-ornaments"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>Todos os direitos autorais dos personagens e seus respectivos arquivos pertencem à Hoyoverse. GIFS e imagens disponibilizadas para download na Honkai: Star Rail Wiki, não são de minha autoria.
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

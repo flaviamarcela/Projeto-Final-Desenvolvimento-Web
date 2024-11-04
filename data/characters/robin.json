@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Robin",
+        "element": "fisico",
+        "path": "the-harmony",
+        "role": "Suporte buffer",
+        "icon": "imagens/robin/robin-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Bater de Asas Silencioso",
+                "description": "Causa Dano Físico igual a 0.5% do ATQ de Robin a um único inimigo.",
+                "gif":"gifs/robin/robin-attack.gif"
+            },
+            {
+                "name": "Perícia - Ária das Penas",
+                "description": "Aumenta o Dano causado por todos os aliados em 0.25%, durando por 3 rodada(s). Essa duração diminui em 1 no início de cada rodada de Robin.",
+                "gif":"gifs/robin/robin-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Vox Harmonique, Opus Cosmique",
+                "description": "Robin entra no estado de Concerto e faz com que todos os outros aliados (excluindo esta unidade) ajam imediatamente. Enquanto estiver no estado de Concerto, aumenta o ATQ de todos os aliados em 15% do ATQ de Robin + 50. Além disso, após cada ataque dos aliados-alvo, Robin causa Dano Físico Adicional igual a 0.72% do seu ATQ uma vez. A Chance de CRIT para este dano é fixada em 1% e o Dano CRIT é fixado em 1.5%. Quando no estado de Concerto, Robin é imune a penalidades de Controle Negativo e não pode entrar em sua rodada ou agir. Uma contagem regressiva de Concerto aparece na barra de Ordem de Ação. Quando a rodada da contagem regressiva começa, Robin sai do estado de Concerto e age imediatamente. A contagem regressiva tem sua própria VEL fixa de 90.",
+                "gif":"gifs/robin/robin-ult.gif"
+            },
+            {
+                "name": "Talento - Ressonância Tonal",
+                "description": "Aumenta o Dano CRIT de todos os aliados em 5%. Além disso, depois que aliados atacam inimigos-alvo, Robin regenera adicionalmente 2 de Energia para si.",
+                "gif":"gifs/robin/robin-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Terra dos Sorrisos",
+                "description": "Enquanto estiverem no estado de Concerto, a PEN de RES a Todos os Tipos de todos os aliados aumenta em 24%.",
+                "image":"imagens/robin/robin-e1.png"
+            },
+            {
+                "name": "Chá da Tarde para Dois",
+                "description": "Enquanto estiver no estado de Concerto, a VEL de todos os aliados aumenta em 16%. O efeito de Regeneração de Energia do Talento aumenta adicionalmente em 1.",
+                "image":"imagens/robin/robin-e2.png"
+            },
+            {
+                "name": "Afinação Inversa",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image":"imagens/robin/robin-e3.png"
+            },
+            {
+                "name": "Chave da Chuva",
+                "description": "Ao usar sua Perícia Suprema, remove penalidades de Controle Negativo de todos os aliados. Enquanto Robin estiver no estado de Concerto, aumenta a RES a Efeito de todos os aliados em 50%.",
+                "image":"imagens/robin/robin-e4.png"
+            },
+            {
+                "name": "Lamento da Estrela Solitária",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image":"imagens/robin/robin-e5.png"
+            },
+            {
+                "name": "Meia-Noite Sem Lua",
+                "description": "Enquanto o estado de Concerto estiver ativo, o Dano CRIT do Dano Físico Adicional causado pela Perícia Suprema aumenta em 450%. O efeito da Meia-Noite Sem Lua pode ser acionado até 8 vez(es). A contagem de ativação reinicia cada vez que a Perícia Suprema é usada.",
+                "image":"imagens/robin/robin-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Cadência Coloratura",
+                "description": "Quando a batalha começa, a ação desse personagem é Avançada Adiante em 25%."
+            },
+            {
+                "name": "Floreio Imporvisado",
+                "description": "Enquanto estiver no estado de Concerto, o Dano CRIT causado por todos os aliados ao realizar Ataques Extras aumenta em 25%."
+            },
+            {
+                "name": "Passagem Sequencial",
+                "description": "Ao usar a Perícia, adicionalmente regenera 5 de Energia."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Luzes Noturnas",
+                "description": "LightCone assinatura de Robin.",
+                "image": "imagens/lightcone/luzes-noturnas.png"
+            },
+            {
+                "name": "Mas a Batalha Não Acabou",
+                "description": "Segunda opção viável.",
+                "image": "imagens/lightcone/mas-a-batalha-nao-acabou.png"
+            }
+        ],
+        "relics": {
+            "name": "Prisioneiro em Confinamento Profundo",
+            "image":"imagens/build/prisioneiro-confinamento-profundo.png"
+        },
+        "ornaments": {
+            "name": "Frota dos Eternos",
+            "image":"imagens/build/frota-dos-eternos.png"
+        },
+        "image": "imagens/robin/robin.png"
+    }
+]

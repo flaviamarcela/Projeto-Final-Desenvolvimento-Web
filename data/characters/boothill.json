@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Boothill",
+        "element": "fisico",
+        "path": "the-hunt",
+        "role": "DPS single-target",
+        "icon": "imagens/boothill/boothill-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Esporas Esmaga-Crânio",
+                "description": "Causa Dano Físico igual a 0.5% do ATQ de Boothill a um único inimigo-alvo.",
+                "gif":"gifs/boothill/boothill-attack.gif"
+            },
+            {
+                "name": "Perícia - Tango Crepitante",
+                "description": "Força Boothill e um inimigo-alvo a entrar no estado de Confronto. O ATQ Básico de Boothill é Aprimorado, e ele não pode usar sua Perícia, com duração de 2 rodada(s). A duração diminui em 1 no início de cada rodada de Boothill. O inimigo-alvo no Confronto fica Provocado. Quando esse inimigo-alvo ou Boothill é atacado pela outra parte no Confronto, o Dano que recebem aumenta em 0.15%/0.15%. Após esse alvo ser derrotado ou sofrer Quebra de Fraqueza, Boothill ganha 1 acúmulo de Truque de Bolso e então dissolve o Confronto. Esta Perícia não regenera Energia. Após usar esta Perícia, a rodada atual não termina.",
+                "gif":"gifs/boothill/boothill-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Rodeio Crepuscular do Demônio da Areia",
+                "description": "Aplica Fraqueza contra Físico a um inimigo-alvo, durando por 2 rodada(s). Causa Dano Físico igual a 2.4% do ATQ de Boothill ao alvo e retarda suas ações em 0.3%.",
+                "gif":"gifs/boothill/boothill-ult.gif"
+            },
+            {
+                "name": "Talento: Cinco Balas no Tambor",
+                "description": "Cada acúmulo do Truque de Bolso aumenta a Redução de Tenacidade do ATQ Básico Aprimorado em 0.5%, podendo acumular até 3 vez(es). Se o alvo estiver com Quebra de Fraqueza quando o ATQ Básico Aprimorado for usado, com base no número de acúmulos de Truque de Bolso, causa Dano de Quebra a esse alvo igual a 0.35%/0.6%/0.85% do Dano de Quebra Físico de Boothill. A Tenacidade máxima considerada para este dano não pode exceder 16 vezes a Redução de Tenacidade base causada pelo ATQ Básico. Após vencer a batalha, Boothill pode manter o Truque de Bolso para a próxima batalha.",
+                "gif":"gifs/boothill/boothill-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Estrela Solitária da Trilha Empoeirada",
+                "description": "No início da batalha, obtém 1 acúmulo de Truque de Bolso. Quando Boothill causa Dano, ignora 16% da DEF do inimigo-alvo.",
+                "image":"imagens/boothill/boothill-e1.png"
+            },
+            {
+                "name": "Revendedor de Conquistas",
+                "description": "Quando em Confronto e obtendo Truque de Bolso, recupera 1 Ponto(s) de Perícia e aumenta o Efeito de Quebra em 30%, com duração de 2 rodada(s). Este efeito também pode ser ativado ao obter acúmulos de Truque de Bolso que excedam o limite máximo. No entanto, não pode ser ativado repetidamente em uma única rodada.",
+                "image":"imagens/boothill/boothill-e2.png"
+            },
+            {
+                "name": "Guarda do Jardim de Mármore",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image":"imagens/boothill/boothill-e3.png"
+            },
+            {
+                "name": "Chef de Carnes Frias",
+                "description": "Quando o inimigo-alvo que estiver em Confronto for atacado por Boothill, o Dano recebido por ele aumenta em 12%. Quando Boothill é atacado pelo inimigo-alvo em Confronto, o efeito de receber mais Dano é reduzido em 12% nele.",
+                "image":"imagens/boothill/boothill-e4.png"
+            },
+            {
+                "name": "Discurso do Tronco",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image":"imagens/boothill/boothill-e5.png"
+            },
+            {
+                "name": "Guaxinim do Hotel Pé de Cabra",
+                "description": "Ao ativar o Dano de Quebra do Talento, adicionalmente causa Dano de Quebra ao inimigo-alvo igual a 40% do multiplicador de Dano original e causa Dano de Quebra a alvos adjacentes igual a 70% do multiplicador de Dano original a alvos adjacentes.",
+                "image":"imagens/boothill/boothill-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Munição Fantasma",
+                "description": "Aumenta a Chance de CRIT / o Dano CRIT deste personagem em uma quantidade igual a 10% / 50% do Efeito de Quebra, com um aumento máximo de 30% / 150%."
+            },
+            {
+                "name": "Sobre as Cobras",
+                "description": "Enquanto Boothill está em Confronto, diminui o Dano que ele recebe de alvos que não estejam em Confronto em 30%."
+            },
+            {
+                "name": "À Queima-Roupa",
+                "description": "Ao obter Truque de Bolso no Confronto, regenera 10 de Energia. Esse efeito também é ativado quando são obtidos acúmulos de Truque de Bolso que excedam o limite máximo."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Velejando em Direção a uma Segunda Vida",
+                "description": "LightCone assinatura de Boothill.",
+                "image": "imagens/lightcone/velejando-segunda-vida.png"
+            },
+            {
+                "name": "Sombreado pela Noite",
+                "description": "Segunda opção viável.",
+                "image": "imagens/lightcone/sombreado-pela-noite.png"
+            }
+        ],
+        "relics": {
+            "name": "Talia: Reino do Banditismo",
+            "image": "imagens/build/talia-reino-banditismo.png"
+        },
+        "ornaments": {
+            "name": "Cavalaria de Ferro Contra a Praga",
+            "image":"imagens/build/cavalaria-ferro-contra-praga.png"
+        },
+        "image": "imagens/boothill/boothill.png"
+    }
+]

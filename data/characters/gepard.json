@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Gepard",
+        "element": "gelo",
+        "path": "the-preservation",
+        "role": "Escudo",
+        "icon": "imagens/gepard/gepard-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Punho da Condenação",
+                "description": "Causa Dano de Gelo igual a 0.5% do ATQ de Gepard a um único inimigo.",
+                "gif": "gifs/gepard/gepard-attack.gif"
+            },
+            {
+                "name": "Perícia - Golpe Intimidador",
+                "description": "Causa Dano de Gelo igual a 1% do ATQ de Gepard a um único inimigo, com 0.65% de chance-base de o inimigo sofrer Congelamento por 1 rodada(s). Durante o Congelamento, o inimigo não pode agir e sofre Dano Adicional de Gelo igual a 0.3% do ATQ de Gepard no início de cada rodada.",
+                "gif": "gifs/gepard/gepard-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Muralha Resistente",
+                "description": "Aplica um Escudo a todos os aliados, absorvendo Dano igual a 0.3% da DEF de Gepard + 150 por 3 rodada(s).",
+                "gif": "gifs/gepard/gepard-ult.gif"
+            },
+            {
+                "name": "Talento - Vontade Inabalável",
+                "description": "Ao ser alvo de um golpe fatal, ao invés de ser derrubado, Gepard restaura imediatamente 0.25% de seus PV máximos. Este efeito só pode ser ativado uma vez por batalha.",
+                "gif": "gifs/gepard/gepard-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Esforço Necesário",
+                "description": "Ao usar a Perícia, aumenta a chance-base de causar Congelamento no inimigo-alvo em 35%.",
+                "image": "imagens/gepard/gepard-e1.png"
+            },
+            {
+                "name": "Frio Perdurante",
+                "description": "Depois que um inimigo Congelado pela Perícia descongela, a VEL dele é reduzida em 20% por 1 rodada(s).",
+                "image": "imagens/gepard/gepard-e2.png"
+            },
+            {
+                "name": "Nunca se Renda",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/gepard/gepard-e3.png"
+            },
+            {
+                "name": "A Fé Move Montanhas",
+                "description": "Quando Gepard estiver em batalha, a RES a Efeito de todos os aliados aumenta em 20%.",
+                "image": "imagens/gepard/gepard-e4.png"
+            },
+            {
+                "name": "Punho de Ferro Gélido",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image": "imagens/gepard/gepard-e5.png"
+            },
+            {
+                "name": "Determinação Inabalável",
+                "description": "Quando seu Talento for ativado, Gepard age imediatamente e restaura 50% de seus PV máximos como PV extras.",
+                "image": "imagens/gepard/gepard-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Bônus de Dano: Gelo",
+                "description": "+4.8"
+            },
+            {
+                "name": "Bônus de DEF",
+                "description": "+5"
+            },
+            {
+                "name": "Bravura",
+                "description": "O ATQ de Gepard aumenta em 35% de sua DEF atual. Este efeito é renovado no início de cada rodada."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Momento de Vitória",
+                "description": "Lightcone Assinatura de Gepard",
+                "image": "imagens/lightcone/momento-de-vitoria.png"
+            },
+            {
+                "name": "Textura de Memórias",
+                "description": "Segunda Opção Viável",
+                "image": "imagens/lightcone/textura-de-memorias.png"
+            }
+        ],
+        "relics": {
+            "name": "Cavaleira do Palácio da Pureza",
+            "image": "imagens/build/cavaleira-do-palacio-da-pureza.png"
+        },
+        "ornaments": {
+            "name": "Belobog dos Arquitetos",
+            "image": "imagens/build/belobog-dos-arquitetos.png"
+        },
+        "image": "imagens/gepard/gepard.png"
+    }
+]

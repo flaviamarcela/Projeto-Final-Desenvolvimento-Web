@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Luocha",
+        "element": "imaginary",
+        "path": "the-abundance",
+        "role": "Suporte de cura",
+        "icon": "imagens/luocha/luocha-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Espinhos do Abismo",
+                "description": "Causa Dano Imaginário igual a 0.5% do ATQ de Luocha a um único inimigo.",
+                "gif": "gifs/luocha/luocha-attack.gif"
+            },
+            {
+                "name": "Perícia - Prece da Flor do Abismo",
+                "description": "Após usar a sua Perícia, Luocha restaura os PV do aliado-alvo imediatamente em 0.4% do ATQ de Luocha + 200. Enquanto isso, Luocha ganha 1 acúmulo de Flor do Abismo. Quando a porcentagem dos PV de qualquer aliado chega a 0.5% ou menos, um efeito equivalente à Perícia de Luocha será imediatamente ativado e aplicado a este aliado uma vez (sem consumir Pontos de Perícia). Este efeito pode ser ativado novamente após 2 rodada(s).",
+                "gif": "gifs/luocha/luocha-skill.gif"
+            },
+            {
+                "name": "Perícia Suprema - Desejo de Morte",
+                "description": "Remove 1 melhoria(s) de todos os inimigos e causa 1.2% do ATQ de Luocha como Dano Imaginário a todos os inimigos. Ao mesmo tempo, Luocha ganha 1 acúmulo de Flor do Abismo.",
+                "gif": "gifs/luocha/luocha-ult.gif"
+            },
+            {
+                "name": "Talento - Ciclo da Vida",
+                "description": "Quando a Flor do Abismo alcança 2 acúmulo(s), Luocha consome todos os acúmulos de Flor do Abismo para ativar um Campo contra o inimigo. Quando qualquer inimigo dentro do Campo é atacado por um aliado, o PV desse aliado é imediatamente restaurado em uma quantidade igual a 12% do ATQ de Luocha mais 60. O efeito do Campo dura 2 rodadas. Quando Luocha é derrubado, o Campo é desativado.",
+                "gif": "gifs/luocha/luocha-talent.gif"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Ablução da Rapidez",
+                "description": "Enquanto o Campo estiver ativo, o ATQ de todos os aliados aumenta em 20%.",
+                "image": "imagens/luocha/luocha-e1.png"
+            },
+            {
+                "name": "Concessão da Pureza",
+                "description": "Quando sua Perícia é ativada, se a porcentagem dos PV do aliado-alvo forem inferiores a 50%, a Cura Realizada por Luocha aumenta em 30%. Se o aliado-alvo tiver 50% ou mais de PV, o aliado recebe um Escudo que pode absorver Dano igual a 18% do ATQ de Luocha + 240, que dura por 2 rodadas.",
+                "image": "imagens/luocha/luocha-e2.png"
+            },
+            {
+                "name": "Questionamento pelos Tolos",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image": "imagens/luocha/luocha-e3.png"
+            },
+            {
+                "name": "O Peso da Coroa",
+                "description": "Quando o Campo de Luocha está ativo, inimigos recebem Enfraquecimento e causam 12% a menos de Dano.",
+                "image": "imagens/luocha/luocha-e4.png"
+            },
+            {
+                "name": "Cicatriz Abaixo da Dor",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/luocha/luocha-e5.png"
+            },
+            {
+                "name": "Deb Volta ao Pó",
+                "description": "Ao usar a Perícia Suprema, há uma chance fixa de 100% de reduzir a RES a Todos os Tipos de todos os inimigos em 20% por 2 rodada(s).",
+                "image": "imagens/luocha/luocha-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Ressurgimento Purificador",
+                "description": "Quando o efeito da Perícia é ativado, remove 1 penalidade(s) de um aliado-alvo."
+            },
+            {
+                "name": "Santificado",
+                "description": "Quando um inimigo no Campo é atacado por um aliado, todos os aliados, exceto o atacante, restauram PV igual a #1[f1]% do ATQ de Luocha + 93."
+            },
+            {
+                "name": "Através do Vale",
+                "description": "A chance de resistir a penalidades de Controle Negativo aumenta em 70%."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Ecos do Caixão",
+                "description": "Lightcone assinatura de Luocha",
+                "image": "imagens/lightcone/ecos-do-caixao.png"
+            },
+            {
+                "name": "Noite Aterrorizante",
+                "description": "Segunda Opção Viável",
+                "image": "imagens/lightcone/noite-aterrorizante.png"
+            }
+        ],
+        "relics": {
+            "name": "Transeunte da Nuvem Errante",
+            "image": "imagens/build/transeunte-da-nuvem-errante.png"
+        },
+        "ornaments": {
+            "name": "Quilha Quebrada",
+            "image": "imagens/build/quilha-quebrada.png"
+        },
+        "image": "imagens/luocha/luocha.png"
+    }
+]

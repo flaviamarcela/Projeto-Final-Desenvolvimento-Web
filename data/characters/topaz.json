@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Topaz & Dinheirinho",
+        "element": "fogo",
+        "path": "the-hunt",
+        "role": "DPS single-target",
+        "icon": "imagens/topaz/topaz-icon.png",
+        "attacks": [
+            {
+                "name": "Ataque - Défcit...",
+                "description": "Causa Dano de Fogo igual a 0.5% do ATQ de Topaz a um único inimigo.",
+                "gif": "gifs/topaz/topaz-attack.webp"
+            },
+            {
+                "name": "Perícia - Dificuldade para Pagar?",
+                "description": "Inflige o status de Prova de Débito a um único inimigo-alvo, aumentando o Dano de Ataques Extras recebido pelo inimigo-alvo em 0.25%. Prova de Débito só entra em efeito no alvo mais recente em que foi aplicado. Caso não existam inimigos afetados com Prova de Débito no campo quando a rodada de um aliado começar, ou quando um aliado agir, Topaz infligirá Prova de Débito a um inimigo aleatório. Dinheirinho causa Dano de Fogo igual a 0.75% do ATQ de Topaz a este alvo. Usar esta Perícia para causar Dano é considerado realizar um Ataque Extra.",
+                "gif": "gifs/topaz/topaz-skill.webp"
+            },
+            {
+                "name": "Perícia Suprema - Lucrar!",
+                "description": "Dinheirinho entra no estado de Bonança Inesperada!, seu multiplicador de Dano aumenta em 0.75% e o Dano CRIT aumenta em 0.13%. Além disso, quando inimigos com Prova de Débito são atingidos por um ATQ Básico, uma Perícia ou uma Perícia Suprema de um aliado, a ação de Dinheirinho é Avançada Adiante em 0.5%. Dinheirinho sai do estado de Bonança Inesperada! depois de usar 2 ataques.",
+                "gif": "/gifs/topaz/topaz-ult.webp"
+            },
+            {
+                "name": "Talento - Mercado de Cofrinhos?!",
+                "description": "Invoca Dinheirinho no início da batalha. Dinheirinho tem 80 de VEL por padrão. Ao agir, Dinheirinho realiza Ataques Extras em um único inimigo-alvo afligido com Prova de Débito, causando Dano de Fogo igual a 0.75% do ATQ de Topaz. Quando os inimigos afligidos com Prova de Débito recebem Ataques Extras de um aliado, a ação de Dinheirinho é Avançada Adiante em 0.5%. O efeito de Avançar Adiante da ação não pode ser ativado durante a rodada de Dinheirinho. Quando Topaz é derrubada, Dinheirinho desaparece.",
+                "gif": "gifs/topaz/topaz-talent.webp"
+            }
+        ],
+        "eidolons": [
+            {
+                "name": "Mercado Futuro",
+                "description": "Quando inimigos afligidos com Prova de Débito recebem Ataques Extras, eles entrarão no estado de Devedor. Este efeito só pode ser ativado 1 única vez por ataque. O estado de Devedor aumenta em 25% o Dano CRIT de Ataques Extras infligidos aos inimigos-alvo, acumulando até 2 vez(es). Quando a Prova de Débito é removida, o estado de Devedor também é removido.",
+                "image": "imagens/topaz/topaz-e1.png"
+            },
+            {
+                "name": "Aquisição Genuína",
+                "description": "Após Dinheirinho agir ou realizar um ataque, Topaz regenera 5 de Energia.",
+                "image": "imagens/topaz/topaz-e2.png"
+            },
+            {
+                "name": "Prenda os Grandes e Liberte os Pequenos",
+                "description": "Nv. da Perícia +2, até no máximo Nv. 15. Nv. do ATQ Básico +1, até no máximo Nv. 10.",
+                "image": "imagens/topaz/topaz-e3.png"
+            },
+            {
+                "name": "Operação Ágil",
+                "description": "Após o início da rodada de Dinheirinho, a ação de Topaz é Avançada Adiante em 20%.",
+                "image": "imagens/topaz/topaz-e4.png"
+            },
+            {
+                "name": "Demanda Inflacionária",
+                "description": "Nv. da Perícia Suprema +2, até no máximo Nv. 15. Nv. do Talento +2, até no máximo Nv. 15.",
+                "image": "imagens/topaz/topaz-e5.png"
+            },
+            {
+                "name": "Mecanismo de Incentivo",
+                "description": "A contagem de ataque de Dinheirinho durante o estado de Bonança Inesperada! aumenta em 1, e sua PEN de RES a Fogo aumenta em 10% ao atacar.",
+                "image": "imagens/topaz/topaz-e6.png"
+            }
+        ],
+        "traces": [
+            {
+                "name": "Descoberta",
+                "description": "Quando Topaz usa seu ATQ Básico para causar Dano, ele será considerado um Ataque Extra."
+            },
+            {
+                "name": "Turbulência Financeira",
+                "description": "Aumenta em 15% o Dano causado por Topaz e Dinheirinho aos inimigos-alvo com Fraqueza contra Fogo."
+            },
+            {
+                "name": "Mercado Stonks",
+                "description": "Após Dinheirinho usar um ataque enquanto está no estado de Bonança Inesperada!, Topaz adicionalmente regenera 10 de Energia."
+            }
+        ],
+        "lightCone": [
+            {
+                "name": "Inquietante, Extasiante",
+                "description": "Lightcone Assinatura da Topaz",
+                "image": "imagens/lightcone/inquietante-extasiante.png"
+            },
+            {
+                "name": "Percorrendo o Mar Estelar",
+                "description": "Segunda opção viável.",
+                "image": "imagens/lightcone/percorrendo-mar-estelar.png"
+            }
+        ],
+        "relics": {
+            "name": "Grão-Duque em Brasas",
+            "image": "imagens/build/grao-duque-em-brasas.png"
+        },
+        "ornaments": {
+            "name": "Duran, Dinastia dos Lobos Errantes",
+            "image": "imagens/build/duran-dinastia-dos-lobos-errantes.png"
+        },
+        "image": "imagens/topaz/topaz.png"
+    }
+]
